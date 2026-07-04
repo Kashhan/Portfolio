@@ -702,9 +702,10 @@ footer .ft-accent{color:var(--indigo);}
 
       <!-- AI Night Sky Navigator -->
       <div class="work-card reveal reveal-delay-1" onclick="openModal('m-sky')">
-        <div class="card-img-ph">🌌</div>
-        <img src="AI-Night-Navigator.png" alt="AI-Night-Navigator"
-            onerror="this.parentElement.outerHTML='<div class=\'card-img-ph\'>🍎</div>'">
+        <div class="card-img-wrap">
+          <img src="AI-Night-Navigator.png" alt="AI Night Sky Navigator"
+            onerror="this.parentElement.outerHTML='<div class=\'card-img-ph\'>🌌</div>'">
+        </div>
         <div class="card-info">
           <div class="card-title">AI Night Sky Navigator</div>
           <div class="card-tags">
@@ -716,7 +717,10 @@ footer .ft-accent{color:var(--indigo);}
 
       <!-- Property Rental -->
       <div class="work-card reveal reveal-delay-2" onclick="openModal('m-prop')">
-        <div class="card-img-ph">🏠</div>
+        <div class="card-img-wrap">
+          <img src="Property-Rental.png" alt="Property Rental Website"
+            onerror="this.parentElement.outerHTML='<div class=\'card-img-ph\'>🏠</div>'">
+        </div>
         <div class="card-info">
           <div class="card-title">Property Rental Website</div>
           <div class="card-tags">
@@ -728,7 +732,10 @@ footer .ft-accent{color:var(--indigo);}
 
       <!-- Hospital Management -->
       <div class="work-card reveal reveal-delay-3" onclick="openModal('m-hosp')">
-        <div class="card-img-ph">🏥</div>
+        <div class="card-img-wrap">
+          <img src="Hospital-Management.png" alt="Hospital Management System"
+            onerror="this.parentElement.outerHTML='<div class=\'card-img-ph\'>🏥</div>'">
+        </div>
         <div class="card-info">
           <div class="card-title">Hospital Management System</div>
           <div class="card-tags">
@@ -954,7 +961,10 @@ footer .ft-accent{color:var(--indigo);}
   <div class="modal-box">
     <button class="modal-close" onclick="closeModal('m-sky')">×</button>
     <div class="modal-scroll">
-      <div class="modal-img-ph" style="border-radius:22px 22px 0 0;height:200px">🌌</div>
+      <div class="modal-img">
+        <img src="AI-Night-Navigator.png" alt="AI Night Sky Navigator"
+          onerror="this.parentElement.className='modal-img-ph';this.parentElement.textContent='🌌'">
+      </div>
       <div class="modal-body">
         <h2>AI Night Sky Navigator</h2>
         <div class="modal-tags-row">
@@ -987,7 +997,10 @@ footer .ft-accent{color:var(--indigo);}
   <div class="modal-box">
     <button class="modal-close" onclick="closeModal('m-prop')">×</button>
     <div class="modal-scroll">
-      <div class="modal-img-ph" style="border-radius:22px 22px 0 0;height:200px">🏠</div>
+      <div class="modal-img">
+        <img src="Property-Rental.png" alt="Property Rental Website"
+          onerror="this.parentElement.className='modal-img-ph';this.parentElement.textContent='🏠'">
+      </div>
       <div class="modal-body">
         <h2>Property Rental Website</h2>
         <div class="modal-tags-row">
@@ -1020,7 +1033,10 @@ footer .ft-accent{color:var(--indigo);}
   <div class="modal-box">
     <button class="modal-close" onclick="closeModal('m-hosp')">×</button>
     <div class="modal-scroll">
-      <div class="modal-img-ph" style="border-radius:22px 22px 0 0;height:200px">🏥</div>
+      <div class="modal-img">
+        <img src="Hospital-Management.png" alt="Hospital Management System"
+          onerror="this.parentElement.className='modal-img-ph';this.parentElement.textContent='🏥'">
+      </div>
       <div class="modal-body">
         <h2>Hospital Management System</h2>
         <div class="modal-tags-row">
